@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t ci-cd-jenkins .'
+                sh 'docker build --no-cache -t ci-cd-jenkins .'
             }
         }
 
