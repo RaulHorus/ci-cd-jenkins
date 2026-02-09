@@ -1,2 +1,70 @@
-<h1>Hola Raul</h1>
-<p>Desplegado con Jenkins</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Entrega CI/CD</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      width: 600px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      border: 5px solid black;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .badges {
+      margin: 25px 0;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 12px 18px;
+      margin: 5px;
+      border-radius: 20px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .green {
+      background: #2ecc71;
+    }
+
+    .subtitle {
+      color: #555;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>¡Hola Profe! 👋</h1>
+    <p>Esta es la entrega final de <strong>Raúl Jesús Vázquez García</strong>.</p>
+
+    <p>El ciclo CI/CD funcionó correctamente.</p>
+
+    <div class="badges">
+      <span class="badge green">✔ Jenkins Build: PASSED</span>
+      <span class="badge green">✔ Kubernetes: ACTIVE</span>
+    </div>
+
+    <p class="subtitle">Desplegado automáticamente desde GitHub</p>
+  </div>
+
+</body>
+</html>
